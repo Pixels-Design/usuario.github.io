@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutiger Aero</title>
+    <link rel="stylesheet" href="Frutiger.css">
+</head>
+<body class="body">
+ <div class="container">
+  <p>Bienvenida a Frutiger Aero</p>
+ </div>
+ <br>
+ <br>
+ <br>
+ <br>
+ <div class="select-background">
+ <p>Elije el estilo del fondo</p>
+ <div class="background-options">
+  <button class="background-button" onclick="frutigerAqua()">Frutiger Aqua</button>
+  <button class="background-button" onclick="frutigerNight()">Frutiger Night</button>
+  <button class="background-button" onclick="technozen()">Technozen</button>
+  <button class="background-button" onclick="frutigerAero()">Frutiger Aero</button>
+ </div>
+ </div>
+ <br>
+ <br>   
+ <br>
+ <br>
+ <div class="music-card">
+  <p class="music-title">Música: Aquatic Ambience</p>
+  <button class="music-button" id="music-toggle" type="button" aria-pressed="false">Reproducir música</button>
+  <p class="music-status" id="music-status" aria-live="polite">La música está pausada.</p>
+  <p class="music-credit">Música de <a href="https://pixabay.com/es/music/ambiente-aquatic-ambience-frutiger-aero-chill-519609/" target="_blank" rel="noopener noreferrer">9JackJack8 en Pixabay</a>.</p>
+ </div>
+ <div class="bubble-layer">
+  <span class="bubble bubble-one"></span>
+  <span class="bubble bubble-two"></span>
+  <span class="bubble bubble-three"></span>
+  <span class="bubble bubble-four"></span>
+  <span class="bubble bubble-five"></span>
+  <span class="bubble bubble-six"></span>
+  <span class="bubble bubble-seven"></span>
+  <span class="bubble bubble-eight"></span>
+ </div>
+ <audio id="background-audio" src="audio.mp3" loop preload="none"></audio>
+ <script src="Frutiger.js"></script>
+</body>
+</html>
